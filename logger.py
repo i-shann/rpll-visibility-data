@@ -4,7 +4,7 @@ import re
 import time
 from datetime import datetime
 
-MASTER_FILE = 'RPLL-visibility-data-2026.csv'
+MASTER_FILE = 'current/RPLL-visibility-data-2026.csv'
 URL = "https://aviationweather.gov/api/data/metar?ids=RPLL&hours=24&format=json"
 
 def sync_and_heal():
