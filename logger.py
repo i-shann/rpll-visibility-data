@@ -38,6 +38,5 @@ def sync_and_heal():
         print(f"Error: {e}")
 
 import os
-while True:
-    sync_and_heal()
-    time.sleep(3600) 
+if __name__ == "__main__":
+    sync_and_heal() 
