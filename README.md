@@ -15,6 +15,8 @@ This repository uses **GitHub Actions** to fetch data automatically.
 - **Self-Healing**: The script fetches the last 24 hours of data per run. If the GitHub server misses a cycle, it will automatically backfill the missing hours during the next successful run.
 - **Deduplication**: The script checks timestamps before appending; it will never save the same observation twice.
 
+**Running Automation:** https://github.com/i-shann/rpll-visibility-data
+
 ## Instructions 
 ### 1. How to download the data
 Simply download the `RPLL-visibility-data-2026.csv` file from this repository. It is updated hourly.
